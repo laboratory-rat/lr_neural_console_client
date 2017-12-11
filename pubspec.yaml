@@ -1,0 +1,19 @@
+name: lr_neural_console_client
+description: simple console client from lr_neural
+author: Laboratory Rat <oleg.timofeev20@gmail.com>
+version: 0.1.0
+dependencies:
+  lr_mongo_collection:
+    git:
+      ref: master
+      url: 'git://github.com/laboratory-rat/lr_mongo_collection'
+  lr_neural:
+    git:
+      ref: master
+      url: 'git://github.com/laboratory-rat/lr_neural'
+  lr_twitter_client:
+    git:
+      ref: master
+      url: 'git://github.com/laboratory-rat/lr_twitter_client'
+  args: "^1.2.0"
+  console: "^2.2.4"
